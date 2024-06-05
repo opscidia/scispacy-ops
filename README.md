@@ -1,5 +1,16 @@
 <p align="center"><img width="50%" src="docs/scispacy-logo.png" /></p>
 
+## ⚠️ IMPORTANT NOTE ABOUT THIS FORK
+The Opscidia organization has a project that require this library and the main version of this repository
+using a dependency that appears to be abandoned. This fork introduces a fix for Python 3.11+ to the `nmslib`
+dependency using [metabrainz fork](https://github.com/metabrainz/nmslib-metabrainz) which is not maintained.  
+
+We do not actively maintain this fork for future versions of `scispacy`.  
+We will publish in pypi a version of `scispacy` with this fix until `nmslib` is fixed in the main repository when needed.  
+**Pypi package: [scispacy-ops](https://pypi.org/project/scispacy-ops/)**  [![Pypi version](https://img.shields.io/pypi/v/scispacy-ops.svg)](http://pypi.python.org/pypi/scispacy-ops)
+
+
+<hr>
 
 This repository contains custom pipes and models related to using spaCy for scientific documents.
 

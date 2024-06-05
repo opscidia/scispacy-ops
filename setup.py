@@ -21,7 +21,7 @@ with open("scispacy/version.py", "r") as version_file:
     exec(version_file.read(), VERSION)
 
 setup(
-    name="scispacy",
+    name="scispacy-ops",
     version=VERSION["VERSION"],
     url="https://allenai.github.io/scispacy/",
     author="Allen Institute for Artificial Intelligence",
@@ -47,7 +47,7 @@ setup(
         "conllu",
         "numpy",
         "joblib",
-        "nmslib>=1.7.3.6",
+        "nmslib-metabrainz",
         "scikit-learn>=0.20.3",
         "pysbd",
     ],
